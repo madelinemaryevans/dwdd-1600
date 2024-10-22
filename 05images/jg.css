@@ -1,0 +1,113 @@
+
+.lora-bold {
+  font-family: "Lora", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+h1 {
+  margin-left: 30px;
+    font-weight: 400;
+}
+body {
+    margin: 10px;
+    margin-left: 30px;
+    background-color: #f9f3ec;
+}
+h2 {
+    color: black;
+    font-weight: 300;
+    font-size: 32px;
+}
+nav {
+    border-style: groove;
+    border-color: #1D467D;
+    border-width: thin;
+    border-radius: 3px;
+    font-size: 18px;
+    background-color: #eee6d7;
+}
+p {
+    margin-left: 30px;
+}
+ul {
+    list-style-type: square;
+}
+li {
+    padding: 6px;
+}
+/* ID to make bigger */
+#makebig {
+    font-size: 45px;
+}
+address {
+margin-left: 30px;    
+}
+dl {
+    margin-left: 30px;
+}
+dt {
+    margin-bottom: 10px;
+}
+/* ID to make more noticable */
+#makebold {
+    font-size: 20px;
+}
+nav ul {
+    font-size: 20px;
+    display: flex;
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+}
+a:hover {
+    color: blueviolet;
+}
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+}
+
+
+header {
+ border-style: groove;
+    border-color: #1D467D;
+    border-width: thin;
+    border-radius: 3px;  
+    background-color: #c3d9e3;
+}
+h2 {
+    color: #0e2541;
+}
+.active {
+    background-color: #c3d9e3;
+}
+
+footer {
+    clear: both;
+}
