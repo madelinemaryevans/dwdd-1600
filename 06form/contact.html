@@ -1,4 +1,6 @@
 <!doctype html>
+
+    
 <html lang="en"> 
     <head>
          <title>Judys Gems: Home</title>
@@ -10,21 +12,6 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-    </head>
-    <body class="lora-bold">
-        <!-- Start of the page header -->
-        
-        <!-- Start of the page content -->
-        <main>
-        <h1 class="lora-bold">Contact Form</h1>
-       <!doctype html>
-<html lang="en"> 
-    <head>
-        <title>Judys Gems: Contact Us</title>
-        <link type="text/css" rel='stylesheet' href="jg.css">
-        <meta charset="UTF-8">
-        <meta name="description" content="Contact Us at Judy's Gems">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body class="lora-bold">
         <!-- Start of the page header -->
@@ -43,44 +30,47 @@
         </nav>
         <!-- Start of the page content -->
         <main>
-            <h1>Contact Us</h1>
+            <h1>Custom Jewelry Design</h1>
             <form class="myForm" method="GET" action="thanks.html">
                 <fieldset>
                     <legend>Personal Information</legend>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
+                    <label>Name:
+                    <input type="text" name="name" required></label>
 
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <label>Email:
+                    <input type="email" name="email" required></label>
 
-                    <label for="phone">Phone:</label>
-                    <input type="tel" id="phone" name="phone" required>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Preferences</legend>
-                    <label for="contact-method">Preferred Method of Contact:</label>
-                    <select id="contact-method" name="contact-method">
+                    <label>Phone:
+                    <input type="tel" name="phone" required></label>
+                     
+                    <label>Preferred Method of Contact:
+                    <select name="contact-method">
                         <option value="email">Email</option>
                         <option value="phone">Phone</option>
                         <option value="text">Text</option>
-                    </select>
+                    </select></label>
+                </fieldset>
+                
 
-                    <p>How did you hear about us?</p>
-                    <label><input type="radio" name="source" value="online" required> Online</label>
-                    <label><input type="radio" name="source" value="friend"> Friend</label>
-                    <label><input type="radio" name="source" value="other"> Other</label>
+                <fieldset>
+                    <legend>Product Selection</legend>
+                   
+                    
+                    <p>Preferred Accessories</p>
+                    <label><input type="radio" name="necklace" value="necklace" required> Necklace</label>
+                    <label><input type="radio" name="bracelet" value="bracelet"> Bracelet</label>
+                    <label><input type="radio" name="earrings" value="earrings"> Earrings</label>
                 </fieldset>
 
                 <fieldset>
-                    <legend>Product Feedback</legend>
-                    <p>Which products are you interested in? (Check all that apply)</p>
-                    <label><input type="checkbox" name="product" value="necklaces"> Necklaces</label>
-                    <label><input type="checkbox" name="product" value="bracelets"> Bracelets</label>
-                    <label><input type="checkbox" name="product" value="earrings"> Earrings</label>
+                    <legend>Customization</legend>
+                    <p>Preference of Material</p>
+                    <label><input type="checkbox" name="chains" value="chains"> Chains</label>
+                    <label><input type="checkbox" name="beads" value="beads"> Beads</label>
+                    <label><input type="checkbox" name="pearss" value="pearls"> Pearl</label>
 
-                    <label for="message">Additional Comments:</label>
-                    <textarea id="message" name="message"></textarea>
+                    <label>Additional Requests:</label>
+                    <textarea name="message"></textarea>
                 </fieldset>
 
                 <input type="submit" value="Submit">
@@ -98,11 +88,4 @@
             
             
             
-        </main>
-        <!-- Start of the page footer -->
-        <footer>
-        <p>&copy; 2024 &bull; Madeline Evans &bull; <a href="mailto:judysgems@gmail.com">Email Us</a></p>
-        </footer>
-        
-       </body>
-    </html>
+       

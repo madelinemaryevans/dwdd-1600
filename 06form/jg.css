@@ -118,14 +118,16 @@ footer {
     margin-bottom: 1rem;
 }
 .myForm legend {
-    color: #c3d9e3; 
+    background-color: #c3d9e3; 
+    color: black; 
     font-size: .8rem;
+    padding: 5px;
 }
 .myForm label {
     margin: .5rem;
 }
 
-.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea {
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea, myForm [type=email] {
     display:block;
 }
 
@@ -148,11 +150,24 @@ footer {
     background-color: rgba(156,51,53,0.1);
 }
 
-.myForm [type=submit] {
+.myForm [type="submit"] {
     background-color: #c3d9e3;
     border: none;
     padding: 1rem 2rem;
     border-radius: 10px;
-    color: rgba;
+    color: black;
     margin: 1rem 0 0 1vw;
+}
+.myForm [type="email"] {
+display: block;
+ border: solid 1px #888;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: "Lora", serif;
+    font-weight: 500;
+    
+}
+.myForm p{
+    margin-left: 4px;
 }
