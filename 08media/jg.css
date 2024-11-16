@@ -1,0 +1,147 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+}
+
+header, nav, main, footer {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Typography and Body Styling */
+body {
+    margin: 10px;
+    margin-left: 30px;
+    background-color: #f9f3ec;
+}
+.lora-bold {
+    font-family: "Lora", serif;
+    font-weight: 500;
+}
+h1 {
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 2rem;
+}
+h2 {
+    color: #0e2541;
+    font-weight: 300;
+    font-size: 32px;
+}
+p, address, dl, dt {
+    margin-left: 30px;
+}
+
+/* Navigation Styling */
+nav {
+    border-style: groove;
+    border-color: #1D467D;
+    border-width: thin;
+    border-radius: 3px;
+    font-size: 18px;
+    background-color: #eee6d7;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    padding: 6px;
+}
+nav a {
+    text-decoration: none;
+}
+nav a:hover {
+    color: blueviolet;
+}
+.active {
+    background-color: #c3d9e3;
+}
+
+/* Responsive Layout for Different Screen Sizes */
+
+/* Styles for Very Small Screens (max-width: 360px) */
+@media only screen and (max-width: 360px) {
+    nav ul {
+        flex-direction: column; /* Stacked layout for very small screens */
+    }
+}
+
+/* Styles for Tablet Screens (768px to 1439px) */
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+    nav ul {
+        display: flex;
+        justify-content: space-around; /* Inline layout with spacing for tablet screens */
+    }
+}
+
+/* Styles for Large Screens (1440px and above) */
+@media only screen and (min-width: 1440px) {
+    nav ul {
+        display: flex;
+        justify-content: space-between; /* Space items across the navigation bar */
+    }
+    header, main, footer {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    #makebig {
+        font-size: 3rem; /* Larger font size for large screens */
+    }
+}
+
+/* Additional Element Styles */
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.hero-image {
+    width: 100%;
+}
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: "Lora", serif;
+}
+
+thead {
+    background-color: #1D467D; /* Header background color */
+    color: #fff; /* Header font color */
+    text-align: left;
+}
+
+th, td {
+    padding: 12px; /* Add padding for better spacing */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #eee6d7; /* Alternating row color */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f3ec; /* Alternating row color */
+}
+
+tbody tr:hover {
+    background-color: #c3d9e3; /* Highlight row on hover */
+}
+
+td, th {
+    border: none; /* Remove table borders */
+    color: #0e2541; /* Text color */
+}
+
